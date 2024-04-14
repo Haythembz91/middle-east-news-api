@@ -45,6 +45,7 @@ newspapers.map(newspaper=>{
             }
             if(title.length>50 && !title.includes('   ')){
                 articles.push({
+                    source:newspaper.name,
                     title,
                     url
                 })
