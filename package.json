@@ -4,7 +4,7 @@
   "description": "API showing latest news in the middle east",
   "main": "index.js",
   "scripts": {
-    "start:backend": "nodemon index.js"
+    "start:backend": "node index.js"
   },
   "author": "Haythem",
   "license": "ISC",
